@@ -1,0 +1,20 @@
+.textTile{
+    margin: 10px;
+    padding: 10px;
+    min-height:100px;
+    min-width: 200px;   
+    background-color: rgb(202, 202, 223);
+  }
+
+  .textTile h4, .textTile h5{
+    font-family: Comic Sans MS, Comic Sans;
+    font-size: larger;
+  }
+
+  .textTile {
+    transition: all 0.3s ease;
+  }
+  
+  .textTile:hover {
+    transform: scale(1.05); /* Slightly enlarge the element */
+  }
